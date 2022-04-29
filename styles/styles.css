@@ -1,0 +1,149 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+.main-container {
+    background-color: white;
+}
+
+.block {
+    padding: 20px;
+}
+
+.col{
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer-panel, .header-panel {
+    height: 60px;
+    background-color: black;
+}
+
+.main-picture {
+    background-image: url(../images/city2.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.preamble {
+    height: 100%;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: black;
+    background-image: url(../images/top-down-city-dark.png);
+    border: 2px solid orange;
+    text-align:center;
+    color: orange;
+    font-size: 22px;    
+}
+
+.title {
+    font-size: 100px;
+    color: orange;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pluses-text{
+    text-align:left;
+    font-size: 25px;
+}
+
+.icon {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding: 50px;
+}
+
+.plus{
+    margin: 20px 0;
+}
+
+.download-wrapper{
+    margin: auto;
+    text-align:center;
+    height: 400px;
+    padding: 150px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 25px 40px;
+    color: black;
+    font-size: 30px;
+    background-color: orange;
+    border-radius: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition-duration: 1s;
+}
+
+.download-button:hover {
+    display: inline-block;
+    padding: 15px 24px;
+    color: black;
+    font-size: 30px;
+    border-radius: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.middle-container{
+    background-image: url(../images/roads.png);
+}
+
+.nav-menu {
+    margin: 0 200px;
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main-icon{
+    height: 100px;
+    width: 100px;
+}
+
+.menu-item{
+    padding-top: 8px;
+}
+
+.menu-link {
+    transition-duration: 400ms;
+}
+
+.menu-link:hover {
+    color: white;
+}
+
+.image-container {
+    background-image: url(../images/top-down-city-dark.png);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid orange;
+}
+
+.image-wrapper{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.foto {
+    transition-duration: 500ms;
+}
+
+.foto:hover {
+    transform: scale(1.2);
+}
+.footer-panel {
+    color: lightgrey;
+    text-align: end;
+    padding: 15px;
+}
